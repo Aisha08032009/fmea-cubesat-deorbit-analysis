@@ -1,0 +1,25 @@
+rank,system,failure_mode_short,RPN,cumulative_percent_of_sum_RPN
+1,Electrodynamic Tether (EDT),PC Fail,315,8.326725
+2,Electrodynamic Tether (EDT),Tether Cut,300,16.256939
+3,Electrodynamic Tether (EDT),Insulation Fail,256,23.024055
+4,Drag Sail,Actuator Fail,252,29.685435
+5,Drag Sail,False Sensor,243,36.108908
+6,Drag Sail,Latch Seizure,240,42.453080
+7,Electrodynamic Tether (EDT),Contamination,224,48.374306
+8,Electrodynamic Tether (EDT),Tether Jam,216,54.084060
+9,Electrodynamic Tether (EDT),Deploy Motor Fail,210,59.635210
+10,Drag Sail,Orientation Fail,168,64.076130
+11,Cold-Gas Propulsion,Valve Stuck,150,68.041237
+12,Electrodynamic Tether (EDT),EDT Software,140,71.742004
+13,Cold-Gas Propulsion,Micro-leak,140,75.442770
+14,Cold-Gas Propulsion,Sensor Fault,126,78.773460
+15,Electrodynamic Tether (EDT),Converter Fail,108,81.628337
+16,Drag Sail,Boom Not Locked,105,84.403912
+17,Drag Sail,Boom Failure,96,86.941581
+18,Drag Sail,Material Degradation,96,89.479249
+19,Cold-Gas Propulsion,Nozzle Clog,96,92.016918
+20,Drag Sail,Membrane Puncture,90,94.395982
+21,Cold-Gas Propulsion,Regulator Fail,72,96.299233
+22,Drag Sail,Command Fault,60,97.885276
+23,Cold-Gas Propulsion,Firing Software,60,99.471319
+24,Cold-Gas Propulsion,Tank Rupture,20,100.000000

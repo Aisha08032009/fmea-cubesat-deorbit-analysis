@@ -1,0 +1,9 @@
+metric,Drag Sail,Electrodynamic Tether (EDT),Cold-Gas Propulsion
+Total Failure Modes Analyzed,9,8,7
+Average Severity (S),7.555555555555555,8.625,9.142857142857142
+Average Occurrence (O),2.888888888888889,3.75,2.142857142857143
+Average Detection (D),6.888888888888889,6.875,4.714285714285714
+Average RPN,150.0,221.125,94.85714285714286
+Failure Modes with RPN >= 100,5,8,3
+Failure Modes with RPN >= 150,4,6,1
+Failure Modes with Severity (S) = 10,2,2,4

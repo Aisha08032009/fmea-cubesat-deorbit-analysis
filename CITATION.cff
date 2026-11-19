@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use the FMEA dataset or code, please cite the associated journal article."
+title: "FMEA for CubeSat Deorbit Systems: Reproducible Analysis Code"
+authors:
+  - family-names: Shermatova
+    given-names: Aisha
+type: software
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Shermatova
+      given-names: Aisha
+  title: "Failure Mode and Effects Analysis (FMEA) for CubeSat Deorbit Systems: A Comparative Risk Assessment of Drag Sails, Electrodynamic Tethers, and Propulsion Modules"
+  journal: Journal of Small Satellites
+  volume: '15'
+  issue: '2'
+  start: 1319
+  end: 1331
+  year: 2026
