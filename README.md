@@ -46,13 +46,3 @@ python -m unittest discover -s tests -v
 `run_all.py` recomputes the numeric summaries, exports `fmea_tables.csv`, and overwrites the four figure PNGs in `figures/`. Different Matplotlib versions or fonts can change figure layout by a few pixels without changing the underlying values. Keep a backup if you want to preserve the exact uploaded PNGs.
 
 **Files:** `data.py` stores the scores and descriptive labels; `metrics.py` computes the aggregates and Pareto rankings; `figures.py` creates Figures 1–4; `run_all.py` coordinates exports; `tests/` checks each published score tuple against a separately encoded copy of Tables 3–5 and verifies aggregates, CSV flags and figure rendering; `reports/` contains audit CSVs.
-
-## Provenance and limitations
-
-- The test suite verifies **numerical consistency with the published article** and internal calculation logic. It cannot validate original failure-rate evidence, mission-specific severity assumptions or score calibration.
-- The uploaded ZIP was supplied after the paper's publication; this code release should not be described as definitive evidence of which exact scripts were executed during original manuscript preparation unless independent historical records establish that.
-- The risk matrix highlights **S ≥ 8 and O ≥ 3.5**, while an **RPN ≥ 100** action threshold and separate **S ≥ 9** review gate come from the published scoring conventions.
-- The publisher-produced article PDF is intentionally **not** redistributed in this repository. Use the official journal link above. Public redistribution of article materials and figures may depend on publishing agreements; confirm the rights you retained before making a public release.
-- No software license has been selected in this private review package. Choose one deliberately before a public open-source release.
-
-See `AUDIT_REPORT.md` for the detailed review and the distinction between computational reproducibility and independent engineering validity.
